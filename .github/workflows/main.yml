@@ -40,6 +40,8 @@ jobs:
         
       - name: Push Changes
         run: |
+          mkdir site
+          cp -r dist/ site/
           git add .
           git commit -m "Actions Build"
           git push origin gh-pages
