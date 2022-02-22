@@ -1,5 +1,6 @@
 <script setup>
 import {reactive, ref} from 'vue';
+import IconAdd from '../components/icons/IconAdd.vue';
 
 let total = $ref(0);
 let store = $ref({
@@ -54,9 +55,9 @@ function decrement(category, item) {
       <ul v-for="num, item in obj">
         <li>
           {{item}}: {{num}}
-          <button @click="increment(category, item)">+</button>
+          <IconAdd @click="increment(category, item)" />
           <button @click="decrement(category, item)">-</button>
-          Percentage: {{ (num/total) * 100 }}
+          {{ (num/total) * 100 }}%
         </li>
       </ul>
 
