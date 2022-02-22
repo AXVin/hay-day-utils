@@ -1,35 +1,37 @@
-# hay-day-utils
+# Hay Day Utils (hay-day-utils)
 
-This template should help get you started developing with Vue 3 in Vite.
+Hay Day Utilities made by AXVin
 
-## Recommended IDE Setup
+## Install the dependencies
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
 
-```sh
-npm run dev
+```bash
+quasar dev
 ```
 
-### Compile and Minify for Production
+### Lint the files
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
+```bash
 npm run lint
 ```
+
+### Format the files
+
+```bash
+npm run format
+```
+
+### Build the app for production
+
+```bash
+quasar build
+```
+
+### Customize the configuration
+
+See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
